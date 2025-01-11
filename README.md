@@ -3,7 +3,7 @@ Rick and Morty Characters
 This project is a task from Pabau Company for a job position. It is a web application built using Vite and React.js, showcasing a list of Rick and Morty characters fetched from the Rick and Morty GraphQL API. The application includes features such as filtering, sorting, pagination (or infinite scrolling), and a language switcher.
 
 
-Features:
+##Features:
 • Character List: Displays Name, Status, Species, Gender, and Origin.
 • Filters: Filter characters by Status and Species.
 • Sorting: Sort characters by Name and Origin.
