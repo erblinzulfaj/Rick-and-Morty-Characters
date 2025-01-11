@@ -1,0 +1,18 @@
+{
+  "filters": {
+    "status": "Status",
+    "species": "Species",
+    "sortBy": "Sort By",
+    "alive": "Alive",
+    "dead": "Dead",
+    "unknown": "Unknown",
+    "default": "Default",
+    "nameAsc": "Name (A-Z)",
+    "nameDesc": "Name (Z-A)",
+    "originAsc": "Origin (A-Z)",
+    "originDesc": "Origin (Z-A)",
+    "origin": "Origin",
+    "gender": "Gender",
+    "all": "All"
+  }
+}

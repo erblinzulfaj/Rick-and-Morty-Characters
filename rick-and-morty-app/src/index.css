@@ -1,0 +1,73 @@
+/* Character */
+.character-card {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: #87d8fe;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.character-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  color: white;
+}
+
+.character-card .character-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.character-card:hover .character-name {
+  color: #007bff;
+}
+
+.character-card .character-description {
+  font-size: 0.95rem;
+  color: #ffffff;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}
+
+.character-card .view-more {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.character-card .view-more:hover {
+  color: #0056b3;
+}
+
+/* App */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
